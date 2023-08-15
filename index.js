@@ -39,5 +39,4 @@ const [, , , , , indg] = colors;
 
 const { muppetName, color, song, job, partner } = muppet;
 
-const { song2, song4 } = nestedMuppet.album.theMuppetMovie;
-const { nestedJob: kermitJob, nestedPartner: kermitPartner } = nestedPartner;
+const { album: { theMuppetMovie: { song2, song4 } }, nestedJob, nestedPartner } = nestedMuppet;
